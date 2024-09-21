@@ -47,8 +47,9 @@ const Home = () => {
                 <Navbar />
             </div>
             <div className="container h-screen flex flex-row items-center justify-center relative">
-                <div className="w-6/12">
-                    <div className="flex flex-col justify-center items-center">
+                <div className="w-10/12">
+                    <div className="w-9/12 mx-auto flex flex-col justify-center items-center">
+
                         <img className="w-36 h-36" src={process.env.PUBLIC_URL + "/wickedfadez-logo.svg"} alt="" />
                         <div className="relative">
                             <img className="" src={process.env.PUBLIC_URL + "/wickedfadez.svg"} alt="" />
