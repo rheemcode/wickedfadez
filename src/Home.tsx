@@ -3,18 +3,18 @@ import { CloseButton, Popover, PopoverButton, PopoverPanel } from '@headlessui/r
 
 const Navbar = () => {
     return (
-        <div id="navbar" className="navbar absolute bg-zinc-900 py-4 w-screen px-2 z-10">
+        <div id="navbar" className="navbar absolute bg-zinc-900 py-1 w-screen px-2 z-10">
             <div className="container"></div>
             <div className="flex justify-between items-center">
                 <div>
                     <div>
-                        <img className="w-12 h-12" src={process.env.PUBLIC_URL + "/wickedfadez-logo.svg"} alt="" />
+                        <img className="w-10 h-10" src={process.env.PUBLIC_URL + "/wickedfadez-logo.svg"} alt="" />
                     </div>
                 </div>
                 <div className="text-zinc-600">
                     <Popover className="relative">
                         <PopoverButton>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-12">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-8">
                                 <path fillRule="evenodd" d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z" clipRule="evenodd" />
                             </svg>
                         </PopoverButton>
