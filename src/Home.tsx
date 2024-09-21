@@ -48,12 +48,12 @@ const Home = () => {
             </div>
             <div className="container h-screen flex flex-row items-center justify-center relative">
                 <div className="w-10/12">
-                    <div className="w-9/12 mx-auto flex flex-col justify-center items-center">
+                    <div className="w-712 mx-auto flex flex-col justify-center items-center">
 
                         <img className="w-36 h-36" src={process.env.PUBLIC_URL + "/wickedfadez-logo.svg"} alt="" />
                         <div className="relative">
-                            <img className="" src={process.env.PUBLIC_URL + "/wickedfadez.svg"} alt="" />
-                            <img className="blur-md absolute top-0 left-0" src={process.env.PUBLIC_URL + "/wickedfadez.svg"} alt="" />
+                            <img className="w-48" src={process.env.PUBLIC_URL + "/wickedfadez.svg"} alt="" />
+                            <img className="w-48 blur-md absolute top-0 left-0" src={process.env.PUBLIC_URL + "/wickedfadez.svg"} alt="" />
                             <div className="mt-2 text-xs text-zinc-700">
                                 Precision Cuts, Styled Confidence.
                             </div>
